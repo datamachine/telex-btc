@@ -2,6 +2,7 @@
     "name": "BTC",
     "description": "Retrieve BTC prices",
     "version": "1.1",
+    "default_enable": ["BTC"],
     "homepage": "https://github.com/datamachine/telegram-pybot-btc",
     "repo": "https://github.com/datamachine/telegram-pybot-btc.git",
     "branch": "master"
