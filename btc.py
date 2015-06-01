@@ -1,10 +1,10 @@
-import telegrambot.plugin
+from telegrambot.plugin import TelegramPlugin
 from urllib import request
 from urllib import error
 import json
 
 
-class BTCPlugin(plugin.TelegramPlugin):
+class BTCPlugin(TelegramPlugin):
     """
     Retrieve BTC prices
     """
